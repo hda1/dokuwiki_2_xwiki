@@ -175,7 +175,6 @@ def get_wiki_dirs(wiki_dir):
             wiki_dirs[current_dir]['files'][full_name]['text'] = text
             title = get_title(text)
             wiki_dirs[current_dir]['files'][full_name]['title'] = title
-            #print(full_name)
 
         #    if os.path.isfile(full_name):
     return wiki_dirs
