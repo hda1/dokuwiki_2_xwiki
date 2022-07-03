@@ -194,7 +194,6 @@ get_spaces(wiki_dir, wiki_dirs)
 
 
 #space = wiki_dirs['/home/sam/Загрузки/info/pages/bdrsu/os']['title']
-#print(space)
 
 for current_dir, dir_data in wiki_dirs.items():
     #print(current_dir, dir_data['title'], dir_data['spaces'])
