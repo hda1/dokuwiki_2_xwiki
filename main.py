@@ -192,7 +192,6 @@ wiki_dirs = get_wiki_dirs(wiki_dir)
 get_dir_titles(wiki_dirs)
 get_spaces(wiki_dir, wiki_dirs)
 
-
 #space = wiki_dirs['/home/sam/Загрузки/info/pages/bdrsu/os']['title']
 
 for current_dir, dir_data in wiki_dirs.items():
