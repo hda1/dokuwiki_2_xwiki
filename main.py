@@ -180,7 +180,6 @@ def get_wiki_dirs(wiki_dir):
     return wiki_dirs
 
 
-
 client = Client('http://10.0.0.123/xwiki/rest/wikis/xwiki/', '', '')
 wiki_dir = '/home/sam/Загрузки/info/pages'
 media_dir = '/home/sam/Загрузки/info/media'
